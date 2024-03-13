@@ -76,3 +76,5 @@ cd ..
 mkdir widgets
 cd widgets
 touch .gitkeep
+
+echo "${feature_name} feature created successfully"

@@ -1,7 +1,7 @@
 
 #Change project name and domain
 projectName="example_app"
-domain="com.sample"
+domain="com.example"
 
 #Excecution begins here
 flutter create "$projectName" --org "$domain"
@@ -339,3 +339,5 @@ cd "${projectName}"
 git init
 git checkout -b dev
 
+
+echo "Project created successfull!!! Run ' dart run build_runner build ' command in project's terminal"
